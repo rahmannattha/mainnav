@@ -1,7 +1,36 @@
-* {
-    margin: 0px;
-    padding: 0px;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
 }
+body {
+    font-family: "Avenir Next";
+}
+
+.logo {
+  float: left;
+}
+
+.header {
+    background-color: rgb(92, 136, 177);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: cornsilk;
+    height: 90px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.header p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* header */
 
 /* NAV */
 nav a{
@@ -26,8 +55,21 @@ nav a{
   color: cornsilk;
 }
 
+nav a:visited {
+  color: cornsilk;
+}
+nav a:link {
+  color: cornsilk;
+}
+nav a:hover {
+  font-size: 1.5em;
+}
+
 
 /* NAV */
+
+
+/* main */
 
 main {
     margin-left: 20px;
@@ -46,10 +88,8 @@ main {
 article {
     flex: auto;
     flex-basis: 30%;
+    text-align: justify;
 }
-
-
-
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -63,4 +103,8 @@ article {
 .card img {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.tepo img {
+  text-align: center;
 }
